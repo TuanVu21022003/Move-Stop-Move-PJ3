@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd13861628dd7f045bae4ffa18bcecbd, type: 3}
+  m_Name: WeaponOSVisual
+  m_EditorClassIdentifier: 
+  list:
+  - _weaponType: 0
+    _weaponVisual: {fileID: 6859285889178911460, guid: 223d01700aa1aef429540b64391cffa9, type: 3}
+    _weaponName: HAMMER
+    _weaponCoin: 80
+    _countMaterial: 2
+  - _weaponType: 1
+    _weaponVisual: {fileID: 2297668380891497135, guid: 641a3c6ada6a932478eb914d5ffc3b2f, type: 3}
+    _weaponName: LOLLIPOP
+    _weaponCoin: 100
+    _countMaterial: 3
+  - _weaponType: 2
+    _weaponVisual: {fileID: 6442042277599674552, guid: 9a180affcc945f442a294e1486cc18ba, type: 3}
+    _weaponName: KNIFT
+    _weaponCoin: 150
+    _countMaterial: 2
+  - _weaponType: 3
+    _weaponVisual: {fileID: 2037622835747340613, guid: cc2983cb59e19594597e7b52490f7f0c, type: 3}
+    _weaponName: CANDY CANE
+    _weaponCoin: 200
+    _countMaterial: 2
+  - _weaponType: 4
+    _weaponVisual: {fileID: 3710905911041618506, guid: 4e315fc35c6508647a377392123c2372, type: 3}
+    _weaponName: BOOMERANG
+    _weaponCoin: 400
+    _countMaterial: 1
+  - _weaponType: 5
+    _weaponVisual: {fileID: 8752070352519717187, guid: 9d9697dbd12a8cb41acaabe501522c34, type: 3}
+    _weaponName: SRIRLY POP
+    _weaponCoin: 600
+    _countMaterial: 3
+  - _weaponType: 6
+    _weaponVisual: {fileID: 6163989378661472884, guid: aafed5b82d58cc14aa4031ae25206844, type: 3}
+    _weaponName: AXE
+    _weaponCoin: 800
+    _countMaterial: 2
+  - _weaponType: 7
+    _weaponVisual: {fileID: 270205572078223085, guid: ef5c2d6057abcd94b9248a99369495e4, type: 3}
+    _weaponName: ICE-CREAM CONE
+    _weaponCoin: 1000
+    _countMaterial: 3
+  - _weaponType: 8
+    _weaponVisual: {fileID: 2513968742410997325, guid: e91311dd97a6272448e393f4b095b730, type: 3}
+    _weaponName: BATTLE AXE
+    _weaponCoin: 1500
+    _countMaterial: 3
+  - _weaponType: 9
+    _weaponVisual: {fileID: 6121450628696707339, guid: 13b004877c6550a47b8189c318de63bd, type: 3}
+    _weaponName: Z
+    _weaponCoin: 2000
+    _countMaterial: 2
+  - _weaponType: 10
+    _weaponVisual: {fileID: 8570671709872184322, guid: 22c405d20028f4545b21cb8dd8feba7d, type: 3}
+    _weaponName: ARROW
+    _weaponCoin: 2500
+    _countMaterial: 3
+  - _weaponType: 11
+    _weaponVisual: {fileID: 8375832597530703711, guid: 0a38b84dc646b1140bd738bb10c992a8, type: 3}
+    _weaponName: UZI
+    _weaponCoin: 3000
+    _countMaterial: 2

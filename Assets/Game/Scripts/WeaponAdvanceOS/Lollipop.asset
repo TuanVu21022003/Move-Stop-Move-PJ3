@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 901260f824d318544b881ae6cf6523f6, type: 3}
+  m_Name: Lollipop
+  m_EditorClassIdentifier: 
+  poolTypeCustom: 28
+  poolTypeOn: 16
+  list:
+  - weaponAdvanceSprite: {fileID: 21300000, guid: fba8a0474ce6f184db2fd676e95ec1d9, type: 3}
+    materials: 050000000600000007000000
+  - weaponAdvanceSprite: {fileID: 21300000, guid: e8dcb196ba87f5f419f6b65f0eb1c0fe, type: 3}
+    materials: 08000000090000000a000000
+  - weaponAdvanceSprite: {fileID: 21300000, guid: eacbeea11303a554b8e853ae385e1dc6, type: 3}
+    materials: 0b0000000c0000000d000000
+  - weaponAdvanceSprite: {fileID: 21300000, guid: cacb7cb7c190da542bda2f3fc43d0303, type: 3}
+    materials: 0e0000000f00000010000000

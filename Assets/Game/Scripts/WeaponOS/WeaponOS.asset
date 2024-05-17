@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e6264049535c2a40afc5eb8fced23f4, type: 3}
+  m_Name: WeaponOS
+  m_EditorClassIdentifier: 
+  list:
+  - _weaponType: 2
+    _weaponSpeed: 6
+    _weaponSpeedRotation: 0
+    _countMaterial: 2
+  - _weaponType: 3
+    _weaponSpeed: 6.1
+    _weaponSpeedRotation: 360
+    _countMaterial: 3
+  - _weaponType: 4
+    _weaponSpeed: 6.2
+    _weaponSpeedRotation: 0
+    _countMaterial: 2
+  - _weaponType: 5
+    _weaponSpeed: 6.3
+    _weaponSpeedRotation: 360
+    _countMaterial: 3
+  - _weaponType: 6
+    _weaponSpeed: 6.5
+    _weaponSpeedRotation: 1080
+    _countMaterial: 2
+  - _weaponType: 7
+    _weaponSpeed: 6.5
+    _weaponSpeedRotation: 360
+    _countMaterial: 3
+  - _weaponType: 8
+    _weaponSpeed: 6.7
+    _weaponSpeedRotation: 0
+    _countMaterial: 2
+  - _weaponType: 9
+    _weaponSpeed: 6.7
+    _weaponSpeedRotation: 360
+    _countMaterial: 2
+  - _weaponType: 10
+    _weaponSpeed: 6.8
+    _weaponSpeedRotation: 0
+    _countMaterial: 2
+  - _weaponType: 11
+    _weaponSpeed: 7
+    _weaponSpeedRotation: 360
+    _countMaterial: 2
+  - _weaponType: 12
+    _weaponSpeed: 7.5
+    _weaponSpeedRotation: 0
+    _countMaterial: 2
+  - _weaponType: 13
+    _weaponSpeed: 7.5
+    _weaponSpeedRotation: 360
+    _countMaterial: 2

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 901260f824d318544b881ae6cf6523f6, type: 3}
+  m_Name: Z
+  m_EditorClassIdentifier: 
+  poolTypeCustom: 36
+  poolTypeOn: 24
+  list:
+  - weaponAdvanceSprite: {fileID: 21300000, guid: 68ffe18478036d040b680d8308a02f1f, type: 3}
+    materials: 3800000038000000
+  - weaponAdvanceSprite: {fileID: 21300000, guid: 6cca1e6bfaebb124f9f2a6829cac419e, type: 3}
+    materials: 3900000039000000
+  - weaponAdvanceSprite: {fileID: 21300000, guid: be05183818809b1489507b2d1297d69e, type: 3}
+    materials: 3a0000003a000000
+  - weaponAdvanceSprite: {fileID: 21300000, guid: 4e27db1546296714eabc74d356708aa2, type: 3}
+    materials: 3b0000003b000000

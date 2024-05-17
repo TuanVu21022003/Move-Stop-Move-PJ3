@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b282278aa9f530b4cad9a0b3bc4896d1, type: 3}
+  m_Name: HairOS
+  m_EditorClassIdentifier: 
+  list:
+  - {fileID: 1889594564098709417, guid: 5b240861e220cb54bba5b48239ff9e9c, type: 3}
+  - {fileID: 7296430751495410862, guid: bafdee6d3016a3744a0d92d03ec1823c, type: 3}
+  - {fileID: 6482761508731039702, guid: 0fb0a40409ed2e3498ac69a78206eb85, type: 3}
+  - {fileID: 2188591973179039733, guid: 9258ec711a11c5141970e8c2fccab76a, type: 3}
+  - {fileID: 1506709979195956735, guid: 616b041f5919bde41b9123a666e18679, type: 3}
+  - {fileID: 5694573918770213776, guid: 237e7e46e0d5ac243ba55adfdf25c665, type: 3}
+  - {fileID: 5989843978127405915, guid: b18b65f042856c1459aad5469f36cb83, type: 3}
+  - {fileID: 8140731304818233177, guid: d487f613d43c9f04486118fde8e6a44a, type: 3}
+  - {fileID: 5061329990129304795, guid: ff41e19a0b8586c4582223a7004c5c23, type: 3}

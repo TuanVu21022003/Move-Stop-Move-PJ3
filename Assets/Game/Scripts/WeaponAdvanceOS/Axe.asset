@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 901260f824d318544b881ae6cf6523f6, type: 3}
+  m_Name: Axe
+  m_EditorClassIdentifier: 
+  poolTypeCustom: 33
+  poolTypeOn: 21
+  list:
+  - weaponAdvanceSprite: {fileID: 21300000, guid: 58ea1825fcd66dc44b208651bd5bd4ec, type: 3}
+    materials: 2b0000002c000000
+  - weaponAdvanceSprite: {fileID: 21300000, guid: b14546c446f24e04b99a781736466a3e, type: 3}
+    materials: 2d0000002d000000
+  - weaponAdvanceSprite: {fileID: 21300000, guid: 507732ecc3a1d6942a559b392f56361e, type: 3}
+    materials: 2e0000002e000000
+  - weaponAdvanceSprite: {fileID: 21300000, guid: c533bdf97da45eb4f9edba50f34a4e63, type: 3}
+    materials: 2f0000002f000000

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff1b3353bbc5d440ba62992e419b3a7, type: 3}
+  m_Name: SkinOS
+  m_EditorClassIdentifier: 
+  list:
+  - skinVisual: {fileID: 239378781582670930, guid: 7d22ba4646139ed499c8d6f6cba73b3e, type: 3}
+    skinHair: {fileID: 0}
+    skinBack: {fileID: 0}
+    skinLeft: {fileID: 0}
+  - skinVisual: {fileID: 2100000, guid: ca2c84f5de415484ba2fe2993a6446c0, type: 2}
+    skinHair: {fileID: 7365562870252681925, guid: ece1033cb80d35242ab7ab4265205adf, type: 3}
+    skinBack: {fileID: 0}
+    skinLeft: {fileID: 0}
+  - skinVisual: {fileID: 2100000, guid: bcdd4eeaae162e0459aceca44c21c965, type: 2}
+    skinHair: {fileID: 0}
+    skinBack: {fileID: 99645666512648784, guid: 645fdd563071723468b92ee4f9f3aef4, type: 3}
+    skinLeft: {fileID: 0}
+  - skinVisual: {fileID: 2100000, guid: 7f91ba780bc601b4782c144d1a724e38, type: 2}
+    skinHair: {fileID: 3213549549148901717, guid: 300040b55ddbcb9469b84b92d0a8c84d, type: 3}
+    skinBack: {fileID: 2096856127168094478, guid: 8e05703e8d38a3440912220e966b1b7a, type: 3}
+    skinLeft: {fileID: 3071132464950641521, guid: e0d786c135876fa49b797505b02c35d3, type: 3}
