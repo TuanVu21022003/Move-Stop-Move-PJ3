@@ -197,6 +197,7 @@ public class PlayManager : Singleton<PlayManager>
         countEnemyDead = 0;
         countEnemySpawned = 0;
         _countPerPlay = 0;
+        AudioManager.Instance.ResetAudio();
     }
 
     public void StopGame()
@@ -204,6 +205,16 @@ public class PlayManager : Singleton<PlayManager>
         _joystick.ResetJoystick();
         _joystick.gameObject.SetActive(false);
         
+    }
+
+    public void PauseGame()
+    {
+        Time.timeScale = 0;
+    }
+
+    public void ResumeGame()
+    {
+        Time.timeScale = 1;
     }
 
     public void SpawnEnemyDelay()

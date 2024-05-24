@@ -226,6 +226,7 @@ public class Character : GameUnit
     {
         if(_target != null)
         {
+            AudioManager.Instance.PlayThrowAudio();
            _weapon.Throw(this, _posBulletStart, _target.transform.position, _anim.transform.localScale.x, OnHitVictim);
         }
     }
@@ -389,6 +390,7 @@ public class Character : GameUnit
 
     public virtual void OnHitVictim(Character attacker, Character victim)
     {
+        AudioManager.Instance.PlayDieAudio();
         attacker.ChangeUpLevel(victim.levelCurrent);
         attacker.RemoveTarget(victim);
         victim.DoDead();
@@ -402,6 +404,7 @@ public class Character : GameUnit
             PlayManager.Instance.player.PrepareGame(false);
             PlayManager.Instance.StopGame();
             PlayManager.Instance.player.ChangeAnim(KeyConstants.Anim_Win);
+            AudioManager.Instance.PlayWinAudio();
         }
     }
 

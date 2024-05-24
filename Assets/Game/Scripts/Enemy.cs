@@ -225,6 +225,7 @@ public class Enemy : Character
         base.OnHitVictim(attacker, victim);
         if(victim is Player && PlayManager.Instance.win == false)
         {
+            AudioManager.Instance.PlayLoseAudio();
             PlayManager.Instance.SetCountPerPlay();
             UIManager.Instance.OpenUI<UIFail>();
             UIManager.Instance.GetUI<UIFail>().UpdateFail(PlayManager.Instance.countEnemyExist, attacker.nameCharacter);

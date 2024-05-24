@@ -157,9 +157,13 @@ public class HandleEquiment : MonoBehaviour
         UIManager.Instance.OpenUI<UIShop>();
         UIManager.Instance.CloseUI<UISkinShop>(0);
         PlayerData dataPlayer = LoadDataPlayer.Instance.LoadData();
-        PlayManager.Instance.player.ChangeEquipment(dataPlayer.hairPlayer);
-        PlayManager.Instance.player.ChangeEquipment(dataPlayer.pantPlayer);
         PlayManager.Instance.player.ChangeEquipment(dataPlayer.skinPlayer);
+        if (dataPlayer.skinPlayer == SkinType.NORMAL)
+        {
+            PlayManager.Instance.player.ChangeEquipment(dataPlayer.hairPlayer);
+            PlayManager.Instance.player.ChangeEquipment(dataPlayer.pantPlayer);
+
+        }
         equiSelection.ResetEqui();
     }
 
