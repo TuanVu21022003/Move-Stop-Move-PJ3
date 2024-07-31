@@ -31,11 +31,27 @@ public class UICanvas : MonoBehaviour
     public virtual void Open()
     {
         gameObject.SetActive(true);
+        BasePopup basePopup = this.GetComponent<BasePopup>();
+        if (basePopup != null)
+        {
+            basePopup.Show();
+        }
+        
     }
 
     public virtual void Close(float time)
     {
-        Invoke(nameof(CloseDirectionly), time);
+        BasePopup basePopup = this.GetComponent<BasePopup>();
+        if(basePopup != null)
+        {
+            basePopup.Hide();
+            Debug.Log("Nhay vao day");
+        }
+        else
+        {
+            Invoke(nameof(CloseDirectionly), time);
+
+        }
     }
 
     public virtual void CloseDirectionly()

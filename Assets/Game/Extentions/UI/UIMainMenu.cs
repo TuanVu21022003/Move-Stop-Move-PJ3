@@ -16,6 +16,11 @@ public class UIMainMenu : UICanvas
         });
     }
 
+    private void OnEnable()
+    {
+        PopupUtils.BubbleItem(buttonPlay.transform);
+    }
+
     public void PlayButton()
     {
         Close(0);
